@@ -1,0 +1,18 @@
+{
+	"name": "phpdemo/json",
+	"description": "PHP Library Package",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "myself",
+			"email": "xxxxx@163.com"
+		}
+	],
+	"minimum-stability": "stable",
+	"require": {
+		"php": ">=5.3.0"
+	},
+	"autoload": {
+		"psr-4": {"Phpdemo\\": "src/"}
+	}
+}
